@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">AnotherRemote</string>
+    <string name="app_name">AnotherRemote</string>
+    <string name="str_plus">+</string>
+    <string name="str_minus">-</string>
+    <string name="str_mute">Mute</string>
+    <string name="str_shutdown">Shutdown</string>
+    <string name="str_ip_and_port">Enter IP address and port</string>
+    <string name="str_colon">:</string>
+    <string name="str_connect">Connect    &gt;</string>
+    <string name="str_wol">Wake On Lan</string>
+    <string name="str_bcast">MAC and broadcast IP</string>
+    <string name="str_wakeup">Wakeup    &gt;</string>
+    <string name="str_switch_plugin">Switch plugin</string>
+    <string name="str_right">Right</string>
+    <string name="str_notifications">Notifications</string>
+    <string name="str_sound">Sound</string>
+    <string name="str_vibration">Vibration</string>
+    <string name="str_display">Display</string>
+    <string name="str_brightness">Brightness:</string>
+    <string name="str_keep_the_screen_on">Keep the screen on</string>
+    <string name="str_step_back">Step back</string>
+    <string name="str_previous">Previous file</string>
+    <string name="str_stop">Stop playback</string>
+    <string name="str_play">Start playback</string>
+    <string name="str_next">Play next </string>
+    <string name="str_forward">Forward</string>
+    <string name="str_volume_up">Master volume step up</string>
+    <string name="str_volume_mute">Mute master volume</string>
+    <string name="str_volume_down">Master volume step down</string>
+    <string name="str_poweroff">Power off method</string>
+    <string name="str_mouse_right">Emulate mouse right button</string>
+    <string name="str_mouse_left">Emulate mouse left button</string>
+    <string name="str_system">System</string>
+    <string name="str_keep_wifi_on">Keep WiFi ON (will send packet to server each 10 seconds)</string>
+    <string name="str_airplaine">Turn on airplaine mode on exit</string>
+    <string name="str_dismiss">Dismiss</string>
+    <string name="str_mousesens">Mouse sensitivity:</string>
+    <string name="str_statusbar">Show icon in statusbar</string>
+    <string name="str_quit">Quit</string>
+    <string name="str_get_plugin_string">Get plug-in string</string>
+    <string name="str_settings">Settings</string>
+    <string name="str_wifi_state">Disable WiFi on exit</string>
+</resources>

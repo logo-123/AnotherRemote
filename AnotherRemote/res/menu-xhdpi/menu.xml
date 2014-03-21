@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/Quit"
+		android:title="@string/str_quit"
+		android:visible="true"
+		android:enabled="true"
+		android:icon="@drawable/exit"
+		></item>
+		
+	<item 
+	    android:id="@+id/GetPIString" 
+	    android:title="@string/str_get_plugin_string" 
+	    android:visible="true" 
+	    android:enabled="true" 
+	    android:icon="@drawable/plugin_string"
+	    ></item>
+	
+	<item
+		android:id="@+id/Settings"
+		android:title="@string/str_settings"
+		android:visible="true"
+		android:enabled="true"
+		android:icon="@drawable/settings"
+		></item>
+
+</menu>

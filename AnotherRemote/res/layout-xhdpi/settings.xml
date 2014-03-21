@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideOverlay" >
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scrollbarStyle="insideOverlay"
+	    android:scrollbars="vertical" >
+
+	    <TextView
+	        android:id="@+id/T1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center|center_horizontal"
+	        android:text="@string/str_notifications"
+	        android:textSize="27sp" >
+	    </TextView>
+
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/T3"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_brightness"
+	        android:textSize="20sp" />
+
+	    <SeekBar
+	        android:id="@+id/BL"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/TextView01"
+	        android:layout_marginTop="5dp"
+	        android:max="100"
+	    />
+
+	    <CheckBox
+	        android:id="@+id/DO"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/BL"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_keep_the_screen_on"
+	        android:textSize="20sp" />
+
+	    <CheckBox
+	        android:id="@+id/KeepWiFiOn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/MouseSesativity"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_keep_wifi_on"
+	        android:textSize="20sp"
+	    />
+
+	    <CheckBox
+	        android:id="@+id/WiFiState"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/KeepWiFiOn"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_wifi_state"
+	        android:textSize="20sp" />
+
+	    <CheckBox
+	        android:id="@+id/STATUSBARICON"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/WiFiState"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_statusbar"
+	        android:textSize="20sp" />
+
+	    <TextView
+	        android:id="@+id/T3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/VIBR"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:gravity="center|center_horizontal"
+	        android:text="@string/str_display"
+	        android:textSize="27sp" />
+
+	    <TextView
+	        android:id="@+id/T4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/T3"
+	        android:layout_below="@+id/DO"
+	        android:layout_marginTop="10dp"
+	        android:gravity="center_horizontal"
+	        android:text="@string/str_system"
+	        android:textSize="27sp" />
+
+	    <CheckBox
+	        android:id="@+id/VIBR"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/SE"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_vibration"
+	        android:textSize="20sp"
+	    />
+	    
+	    <CheckBox
+	        android:id="@+id/SE"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/T1"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_sound"
+	        android:textSize="20sp"
+	        android:layout_alignParentLeft="true"
+	    />
+	    
+		<TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/T4"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/str_mousesens"
+	        android:textSize="20sp" />	    
+
+	    <SeekBar
+	        android:id="@+id/MouseSesativity"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/TextView02"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="5dp"
+	        android:max="10"
+	        android:textSize="27sp"
+	    />
+
+	</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PopupStyle" >
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="400dp"
+	    android:layout_height="350dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:textSize = "30sp"
+	    android:text="" />
+
+	<Button
+	    android:id="@+id/dissmiss_button"
+	    android:layout_width="400dp"
+	    android:layout_height="50dp"
+	    android:textSize="20sp"
+	    android:layout_alignLeft="@+id/textView1"
+	    android:layout_below="@+id/textView1"
+	    android:text="@string/str_dismiss" />
+
+</RelativeLayout>
